@@ -9,7 +9,7 @@ services:
     - 8761:8761
   employee-crud-microservice:
     image: employee-crud-microservice:1.0
-    #container_name: employee-crud-microservice
+    container_name: employee-crud-microservice
     ports:
     - 8680:8680
     environment:
