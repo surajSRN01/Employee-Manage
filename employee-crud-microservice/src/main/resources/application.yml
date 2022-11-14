@@ -1,21 +1,16 @@
 server:
-port: 8680
-
-
-
+  port: 8680
+  
 spring:
-application:
+  application:
     name: employee-crud-microservice
-jpa:
+  jpa:
     show-sql: true
     hibernate:
       ddl-auto: update
-h2:
+  h2:
     console:
       enabled: true
-
-
-
 eureka:
   client:
     register-with-eureka: true

@@ -1,17 +1,13 @@
 server:
- port: 8761
- 
+  port: 8761
+  
 spring:
   application:
     name: eureka-crud-server
     
 eureka:
- 
- client:
+  client:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: ${EUREKA_SERVER:http://localhost:8761/eureka/}
-logging:
-  level:
-    '[com.netflix)': OFF
+      defaultzone: ${EUREKA_SERVER:http://localhost:8761/eureka/}
