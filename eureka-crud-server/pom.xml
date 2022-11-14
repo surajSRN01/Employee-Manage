@@ -38,7 +38,7 @@
 	</dependencyManagement>
 
 	<build>
-        <finalName>employee-crud-microservice</finalName>
+        <finalName>eureka-crud-server</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
